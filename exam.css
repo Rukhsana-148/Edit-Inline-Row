@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300&display=swap');
+*{
+    
+    margin : 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+
+}
+.hidden{
+    display: none;
+}
+.container{
+    max-width: 1360px;
+    font-family: "Poppins", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color : teal;
+    height : 100vh;
+    overflow: scroll;
+}
+
+input{
+    text-transform: capitalize;
+    color : teal;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+h5{
+    text-align: center;
+    padding : 50px 0px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+input{
+    border : none;
+}
+p{
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#action{
+    display: none;
+}
+
+#ok, #cancel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: none;
+}
+
+#myinput:focus+#action{
+    display: inline-block;
+}
+input:focus{
+    border :0px solid red;
+    background-color: rgb(13, 51, 73);
+    color : white;
+    padding : 5px 3px;
+}
+
+input{
+    background: none;
+}
+.col-sm-6{
+    padding : 50px;
+
+}
+.col-sm-6 .add{
+    color : rgb(179, 47, 24);
+    font-size: 20px;
+}
+
+h5{
+    color :rgb(4, 39, 48)
+}
